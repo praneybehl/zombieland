@@ -38,8 +38,8 @@
 		}
 	},
 	"lint-staged": {
-		"*.{js,ts,tsx}": [
-			"npm run lint",
+		"*.{ts}": [
+			"tslint -p --fix",
 			"git add"
 		]
 	},
