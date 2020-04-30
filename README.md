@@ -1,4 +1,4 @@
-# ZombieLand ![Node CI](https://github.com/praneybehl/zombieland/workflows/Node%20CI/badge.svg)[![tscov](https://img.shields.io/badge/dynamic/json.svg?label=tscov&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.minCoverage&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fjeroenouw%2Fliftr-tscov%2Fmaster%2Fpackage.json)](https://github.com/jeroenouw/liftr-tscov)
+# ZombieLand ![Node CI](https://github.com/praneybehl/zombieland/workflows/Node%20CI/badge.svg)  [![tscov](https://img.shields.io/badge/dynamic/json.svg?label=tscov&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.minCoverage&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fjeroenouw%2Fliftr-tscov%2Fmaster%2Fpackage.json)](https://github.com/jeroenouw/liftr-tscov)
 ```bash
   _____   ___    __  __   ____    ___   _____   _          _      _   _   ____
  |__  /  / _ \  |  \/  | | __ )  |_ _| | ____| | |        / \    | \ | | |  _ \
