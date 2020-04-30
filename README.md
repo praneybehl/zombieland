@@ -1,5 +1,11 @@
 # ZombieLand ![Node CI](https://github.com/praneybehl/zombieland/workflows/Node%20CI/badge.svg)[![tscov](https://img.shields.io/badge/dynamic/json.svg?label=tscov&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.minCoverage&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fjeroenouw%2Fliftr-tscov%2Fmaster%2Fpackage.json)](https://github.com/jeroenouw/liftr-tscov)
-
+```bash
+  _____   ___    __  __   ____    ___   _____   _          _      _   _   ____
+ |__  /  / _ \  |  \/  | | __ )  |_ _| | ____| | |        / \    | \ | | |  _ \
+   / /  | | | | | |\/| | |  _ \   | |  |  _|   | |       / _ \   |  \| | | | | |
+  / /_  | |_| | | |  | | | |_) |  | |  | |___  | |___   / ___ \  | |\  | | |_| |
+ /____|  \___/  |_|  |_| |____/  |___| |_____| |_____| /_/   \_\ |_| \_| |____/
+```
 **Zombie Apocalypse v4.5 - interactive command-line application for Ailo coding challenge**
 
 ## Table of Contents
@@ -119,13 +125,23 @@ is also setup with git pre commit hooks to lint staged changes to prevent pipeli
 ## NPM scripts dictionary
 
 `npm start`:			Build and Start application.
+
 `npm run  build`:		Creates a production build.
+
 `npm run test`:			Run linting & unit tests.
+
 `npm run test:unit`:	Run unit tests only.
+
 `npm run lint`:		    Run linting.
+
 `npm run global`:	    Builds application and installs it as global package, exposed global name `Zombieland`.
+
 `npm run clean:some`:	Cleans the ./lib and ./docs folders.
+
 `npm run clean:all`:	Cleans node_modules, package-lock and above.
+
 `npm run tscov`:        Runs typescript coverage report.
+
 `npm run publish-package`: Builds and publishes package to npm.
+
 `npm run docs`:         Build documentation using tsdocs.
