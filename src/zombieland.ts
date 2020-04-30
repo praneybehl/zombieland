@@ -1,4 +1,4 @@
-import { showTitleAndBanner } from './utils/logger.util';
+import { showTitleAndBanner, showOutput, showInfoWithBg } from './utils';
 
 export async function ZombieLand(): Promise<any> {
 	showTitleAndBanner();
