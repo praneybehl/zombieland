@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [10.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -19,6 +19,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Run refresh
       run: npm run refresh
+    - name: Run test
+      run: npm run test
     - name: Run tscov
       run: npm run tscov
     - name: Run build
