@@ -1,8 +1,10 @@
 import { Position, ZombieMoves, ZombieType } from './models/interfaces';
+import { validatePosition } from './validate';
 
 export class Zombie implements ZombieType {
 	position: Position;
 	constructor(pos: Position) {
+		validatePosition(pos);
 		this.position = pos;
 	}
 
@@ -10,8 +12,9 @@ export class Zombie implements ZombieType {
 		return this.position;
 	}
 
-	public move(direction: ZombieMoves, gridSize: number): Position {
+	public move(direction: ZombieMoves, grid: number): Position {
 		const { x, y } = this.position;
+		const gridSize = grid - 1;
 		switch (direction) {
 			case ZombieMoves.UP:
 				y === 0 ? this.position.y = gridSize
