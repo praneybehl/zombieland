@@ -41,7 +41,7 @@ chose to create a slightly gamified and interactive command-line interface along
 The solution to this coding challenge takes more functional approach to programming while not being baised for it.
 
 **_`Language choice:`_**
-- I decided to use Node.js for this project as Javascript/Typescript over Python is my stronger skill keeping time constraints in mind for deliverability. However, it could have been fun to build in Python as well.
+- I decided to use Node.js for this project as Javascript/Typescript over Python as my stronger skill keeping time constraints in mind for deliverability. However, it could have been fun to build in Python as well.
 
 **_`Typescript:`_**
 - For static types checking, code completion intellisense for better developer experience and helps prevent type conversion bugs early on.
